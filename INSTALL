@@ -1,0 +1,9 @@
+Building Muskcoin
+
+See doc/readme-qt.rst for instructions on building Muskcoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Muskcoin.
+
+See doc/build-*.txt for instructions on building muskcoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Muskcoin.
