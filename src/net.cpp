@@ -1212,20 +1212,9 @@ void ThreadDNSAddressSeed()
     printf("%d addresses found from DNS seeds\n", found);
 }
 
-
-
-
-
-
-
-
-
-
-
-
 unsigned int pnSeed[] =
 {
-    0x0
+    0x0100007f
 };
 
 void DumpAddresses()
