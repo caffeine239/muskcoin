@@ -3,16 +3,15 @@ Muskcoin integration/staging tree
 
 http://www.muskcoin.org
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Muskcoin Developers
+Copyright (c) 2021-2021 Muskcoin Developers
 
 What is Muskcoin?
 ----------------
 
-Muskcoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
+Muskcoin is a mars version of Bitcoin using scrypt as a proof-of-work algorithm.
+ - 3 minute block targets
+ - subsidy halves every 50,000 blocks
+ - ~42 million total coins
 
 The rest is the same as Bitcoin.
  - 50 coins per block
