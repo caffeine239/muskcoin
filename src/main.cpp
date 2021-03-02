@@ -349,12 +349,6 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
     return nEvicted;
 }
 
-
-
-
-
-
-
 //////////////////////////////////////////////////////////////////////////////
 //
 // CTransaction / CTxOut
@@ -945,7 +939,7 @@ int CMerkleTx::GetBlocksToMaturity() const
 {
     if (!IsCoinBase())
         return 0;
-    return max(0, (COINBASE_MATURITY+20) - GetDepthInMainChain());
+    return max(0, (COINBASE_MATURITY + 20) - GetDepthInMainChain());
 }
 
 
@@ -1091,13 +1085,13 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     int64 nSubsidy = 20 * COIN;
 
     // Subsidy is cut in half every 840000 blocks, which will occur approximately every 4 years
-    nSubsidy >>= (nHeight / 10000); // Muskcoin: 840k blocks in ~4 years
+    nSubsidy >>= (nHeight / 50000); // Muskcoin: 840k blocks in ~4 years
 
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 1 * 24 * 60 * 60; // Muskcoin: 1 days
-static const int64 nTargetSpacing = 2 * 60; // Muskcoin: 2 minutes
+static const int64 nTargetTimespan = 2 * 24 * 60 * 60; // Muskcoin: 2 days
+static const int64 nTargetSpacing = 3 * 60; // Muskcoin: 3 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
