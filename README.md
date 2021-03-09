@@ -1,9 +1,12 @@
 Muskcoin integration/staging tree
 ================================
 
-http://www.muskcoin.org
+http://site.damuskcoin.com
 
-Copyright (c) 2021-2021 Muskcoin Developers
+Block Explorer:
+http://explore.damuskcoin.
+
+Copyright (c) 2021-2021 Muskcoin Developer(s)
 
 What is Muskcoin?
 ----------------
@@ -11,14 +14,12 @@ What is Muskcoin?
 Muskcoin is a mars version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 3 minute block targets
  - subsidy halves every 50,000 blocks
- - ~42 million total coins
-
-The rest is the same as Bitcoin.
- - 50 coins per block
- - 2016 blocks to retarget difficulty
+ - 42 million total coins (We are going twice as far as Bitcoin)
+ - 20 coins per block
+ - 2881 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Muskcoin client sofware, see http://www.muskcoin.org.
+the Muskcoin client sofware, see http://site.damuskcoin.com.
 
 License
 -------

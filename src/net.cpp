@@ -1043,14 +1043,6 @@ void ThreadSocketHandler()
     }
 }
 
-
-
-
-
-
-
-
-
 #ifdef USE_UPNP
 void ThreadMapPort()
 {
@@ -1160,14 +1152,6 @@ void MapPort(bool)
 }
 #endif
 
-
-
-
-
-
-
-
-
 // DNS seeds
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
@@ -1214,7 +1198,7 @@ void ThreadDNSAddressSeed()
 
 unsigned int pnSeed[] =
 {
-    0x0100007f
+    0x0100007f, 0x24a335c0,
 };
 
 void DumpAddresses()
