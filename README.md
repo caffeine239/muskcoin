@@ -1,10 +1,11 @@
 Muskcoin integration/staging tree
 ================================
 
+Website:
 http://site.damuskcoin.com
 
 Block Explorer:
-http://explore.damuskcoin.
+http://explore.damuskcoin.com
 
 Copyright (c) 2021-2021 Muskcoin Developer(s)
 
